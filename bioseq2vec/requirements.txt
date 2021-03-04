@@ -1,0 +1,8 @@
+pylint
+numpy
+tensorflow
+keras==2.0.8
+yoctol_utils
+gensim
+h5py
+yoctol_keras_layer_zoo
