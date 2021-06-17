@@ -10,7 +10,7 @@ Bioseq2vec shows how to calculate RNA and protein sequence characteristics.
 
 
 ## Usage
-Install python3.* for running this code. And these packages should be satisified:
+Install python3.* for running this code. And these packages should be satisfied:
 + numpy
 + scikit-learn
 + scipy
