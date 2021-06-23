@@ -116,7 +116,7 @@ if __name__ == '__main__':
     for pro in pro_seqs_names:  # iteritems() removed in python 3
         if pro in pro_seqs:
             # transform sequences
-            bioseq2vec_pro_feature = bioseq2vec_pro.transform([get_words(3, pro)]).reshape(-1)
+            bioseq2vec_pro_feature = bioseq2vec_pro.transform([get_words(3, pro_seqs[pro])]).reshape(-1)
             pro_feature.append(bioseq2vec_pro_feature)
     pro_feature = np.array(pro_feature)
     np.savetxt('./pro.txt', pro_feature)
